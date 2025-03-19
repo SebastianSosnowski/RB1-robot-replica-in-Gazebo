@@ -1,6 +1,25 @@
 <?xml version="1.0" ?>
 
 <robot name="RB1">
+    <gazebo reference="base_link">
+        <material> Gazebo/Black</material>
+    </gazebo>
+    <gazebo reference="right_wheel">
+        <material>Gazebo/RedGlow</material>
+    </gazebo>
+    <gazebo reference="left_wheel">
+        <material>Gazebo/RedGlow</material>
+    </gazebo>
+    <gazebo reference="front_caster">
+        <material>Gazebo/TurquoiseGlow</material>
+    </gazebo>
+    <gazebo reference="back_caster">
+        <material>Gazebo/BlueGlow</material>
+    </gazebo>
+    <gazebo reference="front_laser">
+        <material>Gazebo/Green</material>
+    </gazebo>
+
     <!-- Link - base -->
     <link name="base_link">
         <inertial>
